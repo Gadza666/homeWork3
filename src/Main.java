@@ -29,7 +29,7 @@ public class Main {
         System.out.println(" Task4 ");
         int newAge = 6;
         if (newAge >= 2 && newAge <= 6) {
-            System.out.printf(" Если возраст человека равен %s, то ему нужно ходить в сад%n", newAge);
+            System.out.printf(" Если возраст человека равен %s, то ему нужно ходить в детский сад%n", newAge);
         }
         if (newAge > 6 && newAge <= 17) {
             System.out.printf(" Если возраст человека равен %s, то ему нужно ходить в школу%n", newAge);
