@@ -11,9 +11,9 @@ public class Main {
         }
 
         System.out.println(" Task2 ");
-        int temperature = 5;
-        if (temperature >= 5) {
-            System.out.printf(" На улице %s градуса, нужно надеть шапку%n ", temperature);
+        int temperature = 6;
+        if (temperature <= 5) {
+            System.out.printf(" На улице %s градусов, нужно надеть шапку%n ", temperature);
         } else {
             System.out.printf(" На улице %s градуса, можно идти без шапки%n ", temperature);
         }
@@ -27,7 +27,7 @@ public class Main {
         }
 
         System.out.println(" Task4 ");
-        int newAge = 3;
+        int newAge = 6;
         if (newAge >= 2 && newAge <= 6) {
             System.out.printf(" Если возраст человека равен %s, то ему нужно ходить в сад%n", newAge);
         }
@@ -46,10 +46,10 @@ public class Main {
         if (attractionAge < 5) {
             System.out.printf(" Если возраст ребенка равен %s, то нельзя кататься на аттракционе%n", attractionAge);
         }
-        if (attractionAge >= 5 && attractionAge <= 14) {
+        if (attractionAge >= 5 && attractionAge < 14) {
             System.out.printf(" Если возраст ребенка равен %s, то можно кататься на аттракционе в сопровождении%n", attractionAge);
         }
-        if (attractionAge > 14) {
+        if (attractionAge >= 14) {
             System.out.printf(" Если возраст ребенка равен %s, то можно кататься на аттракционе без сопровождения взрослого%n", attractionAge);
         }
 
