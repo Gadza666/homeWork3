@@ -27,14 +27,14 @@ public class Main {
         }
 
         System.out.println(" Task4 ");
-        int newAge = 6;
+        int newAge = 5;
         if (newAge >= 2 && newAge <= 6) {
             System.out.printf(" Если возраст человека равен %s, то ему нужно ходить в детский сад%n", newAge);
         }
-        if (newAge > 6 && newAge <= 17) {
+        if (newAge >= 7 && newAge <= 17) {
             System.out.printf(" Если возраст человека равен %s, то ему нужно ходить в школу%n", newAge);
         }
-        if (newAge > 17 && newAge <= 24) {
+        if (newAge >= 18 && newAge <= 24) {
             System.out.printf(" Если возраст человека равен %s, то ему нужно ходить в универститет%n", newAge);
         }
         if (newAge > 24) {
